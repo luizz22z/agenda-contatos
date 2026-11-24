@@ -1,0 +1,64 @@
+* {box-sizing: border-box;}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-bottom: lpx solid #dddddd;
+}
+
+main{
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: lpx solid #dddddd;
+    border-radius: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: lpx solid #cccccc;
+    border-radius: 4px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contato{
+    border: lpx solid #dddddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.contato h3 {
+    margin-top: 0;
+}
